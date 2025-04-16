@@ -31,10 +31,8 @@ public class Input {
         if (defaultValue) System.out.print("(Y/n): ");
         else System.out.print("(y/N): ");
 
-        String userInput = sc.nextLine().trim();
-
-        boolean userValue = (userInput.equals("y") || userInput.equals("Y")) ? true : false;
-        return userInput.isEmpty() ? defaultValue : userValue;
+        String userInput = sc.nextLine();
+        return userInput.isEmpty() ? defaultValue : userInput.equalsIgnoreCase("y");
     }
     static boolean confirm(String title) {
         return confirm(title, false);
