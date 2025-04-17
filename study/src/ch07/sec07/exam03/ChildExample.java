@@ -12,7 +12,7 @@ public class ChildExample {
 
         // 불가능 -> 참조하는 것은 Parent이기 때문에
         // Parent에 정의되어있지 않은 변수나 메서드는 사용 불가
-        
+
 //        parent.field2 = "data2";
 //        parent.method3();
 
