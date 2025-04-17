@@ -8,7 +8,5 @@ public class InputTest {
         System.out.println("입력값: " + obj.readInt("나이: "));
         System.out.println("입력값: " + obj.confirm("종료할까요? "));
         System.out.println("입력값: " + obj.confirm("종료할까요? ", true));
-
-
     }
 }
