@@ -1,0 +1,16 @@
+package ch12.sec04;
+
+import java.util.Date;
+
+public class MeasureRunTimeExample {
+    public static void main(String[] args) {
+        long start = System.nanoTime();
+        int sum = 0;
+        for (int i = 1; i <= 1000000; i++) {
+            sum += i;
+        }
+        long end = System.nanoTime();
+        System.out.println("1부터 1000000까지의 합: " + sum);
+        System.out.println("계산에 " + (end - start) + "나노초가 소요됐습니다.");
+    }
+}

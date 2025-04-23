@@ -17,7 +17,6 @@ public class ButtonExample {
         //Ok 버튼 클릭하기
         btnOk.click();
 
-
         //Cancel 버튼 객체 생성
         Button btnCancel = new Button();
 
